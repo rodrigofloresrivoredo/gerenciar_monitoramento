@@ -1,5 +1,5 @@
-# gerenciar_monitoramento
-DESAFIO 2 | gerenciar o monitoramento de recursos MC Azure
+#DESAFIO 2 | gerenciar o monitoramento de recursos MC Azure
+
 
 Objetivo:  resumos,anotações sobre o uso da Azure, servindo como material de apoio para estudos e futuras implementações.
 
