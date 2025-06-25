@@ -61,7 +61,8 @@ Consultar Dados
 •	Via portal Monitor → Logs
 •	Ou via API/SDK
 •	Usos comuns: análise de performance, erros, disponibilidade, segurança, criação de dashboards, Power BI, e outros.
-________________________________________Métricas Extraídas de Logs
+________________________________________
+Métricas Extraídas de Logs
 Definir Métricas de Logs
 •	Use Scheduled Query Rules API para extrair métrica de logs
 •	Criar regra programada, gerar métrica customizada 
@@ -114,7 +115,8 @@ o	Acesse "Configurações de Diagnóstico".
 o	Clique em "Adicionar configuração de diagnóstico".
 o	Escolha os tipos de logs e métricas que deseja enviar.
 o	Escolha o destino (Log Analytics, Storage, Event Hubs).
-________________________________________ 2. Como Configurar Alertas no Azure Monitor
+________________________________________
+2. Como Configurar Alertas no Azure Monitor
 Etapas:
 1.	Vá em Monitor > Alertas > Criar > Regra de alerta.
 2.	Escolha o "Escopo" (ex: uma VM ou App Service).
@@ -152,7 +154,8 @@ kql
 Heartbeat
 | where TimeGenerated > ago(1h)
 | summarize count() by Computer
-________________________________________ 5. Definir Métricas com Base em Logs
+________________________________________
+5. Definir Métricas com Base em Logs
 Como fazer:
 1.	Vá em Monitor > Alertas > Regras de alerta programada (Scheduled Query Rule).
 2.	Use uma consulta KQL para extrair a condição do log.
