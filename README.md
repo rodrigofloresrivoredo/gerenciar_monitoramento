@@ -1,7 +1,7 @@
 #DESAFIO 2 | gerenciar o monitoramento de recursos MC Azure
 
 
-Objetivo:  resumos,anotações sobre o uso da Azure, servindo como material de apoio para estudos e futuras implementações.
+Objetivo:  resumos, anotações sobre o uso da Azure, servindo como material de apoio para estudos e futuras implementações.
 
 Recursos - Dos componentes do Azure Monitor
 •	Coleta de dados: métricas (numéricas, em série temporal) e logs (texto, JSON, eventos) 
